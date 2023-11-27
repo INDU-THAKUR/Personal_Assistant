@@ -1,7 +1,4 @@
-from tkinter import *
-img_root = Tk()
-img_root.geometry("800x200")
-img_root.title("GPW CHAT ")
+
 import pyttsx3 # text-to-speech conversion library in Python
 import speech_recognition as sr
 import datetime
@@ -145,4 +142,3 @@ if __name__ == "__main__":
                 speak("mam do you have any other work")
             
             
-img_root.mainloop()
